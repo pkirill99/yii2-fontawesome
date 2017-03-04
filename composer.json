@@ -1,0 +1,22 @@
+{
+	"name" : "pkv/yii2-fontawesome",
+	"description" : "The iconic font and CSS toolkit",
+	"type" : "yii2-extension",
+	"keywords" : ["yii2", "extension"],
+	"license" : "BSD-3-Clause",
+	"authors" : [
+		{
+			"name" : "Kirill Pomerantsev",
+			"email" : "kirill@pomerantsev.ru"
+		}
+	],
+	"require" : {
+		"yiisoft/yii2" : "*",
+		"fortawesome/font-awesome" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"pkv\\fontawesome\\" : ""
+		}
+	}
+}
