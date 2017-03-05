@@ -41,4 +41,4 @@ Once the extension is installed, simply use it in your code by  :
 
 Don't forget register asset bundle in view :
 
-<?php pkv\fontawesome\Asset::register($this); ?>
+<?php pkv\fontawesome\AssetBundle::register($this); ?>

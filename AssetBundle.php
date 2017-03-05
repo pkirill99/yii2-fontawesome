@@ -1,4 +1,5 @@
 <?php
+
 /**
  * User: Kirill Pomerantsev
  * Date: 25.02.2017
@@ -7,10 +8,8 @@
 
 namespace pkv\fontawesome;
 
-use  yii\web\AssetBundle;
-
-class Asset
-	extends AssetBundle
+class AssetBundle
+	extends \yii\web\AssetBundle
 {
 	public $sourcePath = '@vendor/fortawesome/font-awesome';
 	public $css
